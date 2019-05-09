@@ -25,5 +25,10 @@ public class UserServiceImpl {
 		return name2 + id2;
 	}
 
+	
+	public String createUser4(String name4, int id4) {
+		System.out.println("name4 ");
+		return name4 + id4;
+	}
 
 }
