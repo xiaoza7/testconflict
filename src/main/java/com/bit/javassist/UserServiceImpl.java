@@ -6,12 +6,17 @@ package com.bit.javassist;
 public class UserServiceImpl {
 
 	public void getName(String userId) {
-		System.out.println("代理方法中 ");
+		System.out.println("浠ｇ悊鏂规硶涓� ");
 	}
 
 	public String createUser(String name, int id) {
 		System.out.println("name ");
 		return name + id;
 	}
+	public String createUser1(String name1, int id1) {
+		System.out.println("name1 ");
+		return name1 + id1;
+	}
+	
 
 }
