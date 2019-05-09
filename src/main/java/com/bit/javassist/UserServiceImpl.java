@@ -13,5 +13,9 @@ public class UserServiceImpl {
 		System.out.println("name ");
 		return name + id;
 	}
+	public String createUser2(String name2, int id2) {
+		System.out.println("name2 ");
+		return name2 + id2;
+	}
 
 }
