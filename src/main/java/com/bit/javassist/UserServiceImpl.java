@@ -13,10 +13,17 @@ public class UserServiceImpl {
 		System.out.println("name ");
 		return name + id;
 	}
+<<<<<<< HEAD
 	public String createUser1(String name1, int id1) {
 		System.out.println("name1 ");
 		return name1 + id1;
 	}
 	
+=======
+	public String createUser2(String name2, int id2) {
+		System.out.println("name2 ");
+		return name2 + id2;
+	}
+>>>>>>> branch 'master' of https://github.com/xiaoza7/testconflict.git
 
 }
