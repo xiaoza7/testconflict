@@ -48,5 +48,9 @@ public String createUser7(String name7, int id7) {
 		System.out.println("name7 ");
 		return name7 + id7;
 	}
+	public String createUser8(String name8, int id8) {
+		System.out.println("name8 ");
+		return name8 + id8;
+	}
 
 }
