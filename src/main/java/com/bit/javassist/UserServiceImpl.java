@@ -37,10 +37,16 @@ public class UserServiceImpl {
 		System.out.println("name3 ");
 		return name3 + id3;
 	}
+
 	
 	public String createUser6(String name6, int id6) {
 		System.out.println("name6 ");
 		return name6 + id6;
+	}
+
+public String createUser7(String name7, int id7) {
+		System.out.println("name7 ");
+		return name7 + id7;
 	}
 
 }
